@@ -1,0 +1,14 @@
+ <?xml version="1.0"?>
+   <robot name="hachibot">
+    <link name="base_link">
+      <visual>
+        <geometry>
+          <box size="0.214 0.135 0.047"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0.0 0.00 0.038"/>
+        <material name="blue">
+          <color rgba="0 0 0 1"/>
+        </material>
+      </visual>
+    </link>
+  </robot>
