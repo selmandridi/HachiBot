@@ -1,8 +1,7 @@
 #ifndef _IMU_CONFIG_H_
 #define _IMU_CONFIG_H_
 
-#include "I2Cdev.h"
-#include "MPU9250.h"
+#include <MPU9250.h>
 
 #define G_TO_ACCEL 9.81
 #define MGAUSS_TO_UTESLA 0.1
@@ -11,10 +10,6 @@
 #define GYRO_SCALE 1 / 131 // LSB/(deg/s)
 #define MAG_SCALE 0.6 // uT/LSB
     
-MPU9250 accelerometer;
-MPU9250 gyroscope;    
-MPU9250 magnetometer;
-
-#endif
+MPU9250 mpuUnit;
 
 #endif
